@@ -1,13 +1,11 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "Items":{
+    "name":"string",
+    "quantity":"int",
+    "category": "Category[]",
+    "store":"string"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Cateogry": {
+    "name": "string"
   }
 }
